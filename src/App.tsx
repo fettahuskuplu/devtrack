@@ -1,9 +1,8 @@
+import './index.css';
+import { HomePage } from './pages/HomePage';
+
 function App() {
-  return (
-    <div className="p-6">
-      <h1 className="text-xl font-semibold">DevTrack</h1>
-    </div>
-  )
+  return <HomePage />;
 }
 
-export default App
+export default App;
